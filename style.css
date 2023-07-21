@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+*{
+    font-family: 'Hind',sans-serif;
+}
+.bannerBgImage{
+    height: 100vh;
+    background: url("/images/card-1.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannerText{
+    text-align: right;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.bannerTitle{
+    font-size: 4rem;
+
+}
+.bannerDesc{
+    font-size: 2rem;
+}
+.card{
+    cursor: pointer;
+}
+.card:hover{
+    background-color: #d87093;
+    border: 2px solid #9acd32;
+}
+.bIcon{
+    width: 100%;
+    text-align: center;
+    font-size: 40px;
+}
+
+.img-fluid:hover{
+    border: 2px solid yellowgreen;
+    
+}
+.card-img-top{
+    height: 30vh;
+}
+.card-img{
+    height: 20vh;
+}
+.education img{
+    width: 300px;
+    height: 300px;
+}
+.education{
+    background-color: aliceblue;
+}  
+
+section{
+    min-height: 80vh;
+}
+body{
+    background-color:cornsilk;#im,edu,pro
+    /* background-color: black; */
+    padding: right 0;
+}
+
+.navi {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    text-decoration: none;
+}
+
+.profile p{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: #266150
+}
+.nav a:hover{
+    background-color: #266150;
+    color: rgb(218, 23, 23);
+}
+i{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+progress{
+    width: 100%;
+    height: 40px;
+    background-color: palevioletred;#box backgrund color
+    border-radius: 40px;
+    margin-top: 40px;
+}
+  /* For Chrome or Safari */
+  progress::-webkit-progress-bar {
+        background-color: #d7181876;
+        border-radius: 10px;
+    }
+
+    progress::-webkit-progress-value {
+        background-color:yellowgreen !important;#box main color
+        border-radius: 40px;
+    }
+    /* .contact{
+        margin: 50px;
+    } */
+    .education h1{
+        text-align: center;
+
+    }
+    .colleges{
+        margin: 40px;
+        line-height: 40px;
+    }
+    .colleges div{
+        padding: 20px;
+    }
+    .colleges h2{
+        color: #266150;
+        font-weight: bold;
+    }
+    .colleges p{
+        color: black;
+    }
+    .certificates{
+        background-color: #f9faf5;
+    }
+    .certificates h1{
+        text-align: center;
+    }
+    .certi{
+        margin: 40px;
+        line-height: 40px;
+    }
+    .certi div{
+        padding: 20px;
+    }
+    @media screen and (max-width: 600px) {
+        .section{
+            padding: 0px;
+            margin: 0px;
+        }
+       
+       
+        .profile p{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .education{
+            padding: 10px;
+        }
+        .certificates{
+            padding:10px ;
+        }
+        .certi{
+            margin: 0px;
+        }
+        
+        .profile{
+            margin-top: 10px;
+        }
+       
+       .navi{
+        display: none;
+       }
+       .navicon{
+        display: block;
+        
+        left: 10px;
+        margin-left: 10px;
+        margin-right: 250px;
+        
+       }
+      
+        /* h1{
+            margin-bottom: 40px;
+        } */
+
+}
+@media screen and (max-width: 600px) {
+.navi a {display: none;}
+
+.navi{
+    display: flex;
+    flex-direction: column; 
+    width: 100%; 
+    background-color: white; 
+}
+ 
+}
+
+@media screen and (max-width: 600px) {
+.navi.responsive {position: relative;}
+
+.navi.responsive  {
+    float: none;
+    
+    top: 20px;
+    padding: 20px;
+    
+}
+.navi.responsive a{
+    display: block;
+    padding: 0px;
+}
+.education img{
+    width: 300px;
+    height: 300px;
+}
+.certify img {
+height: 300px;
+width: 300px;
+}
+
+}
+.footer img{
+    height: 50px;
+    width: 50px;
+    
+}
+.edu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap-reverse;
+}
+.education img{
+    max-height: 600px;
+    max-width: 600px;
+}
+.certify{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap-reverse;
+}
+.certify img{
+    max-height: 600px;
+    max-width: 500px;
+}
+
+footer{
+    background-color: #f9faf5;
+    padding: 20px;
+    box-shadow: 0 0 45px grey;
+}
+.foot-nav{
+    display: flex;
+    flex-direction: column;
+}
+section h1{
+    color: #5fec12;#all main headings
+    font-weight: bold;
+    font-size: 35px;
+}
+.certificates h2{
+    color:rgb(162, 28, 245);#certificates side headings
+}
+
